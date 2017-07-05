@@ -12,7 +12,7 @@ form_HTML = """
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/html; charset=utf-8'
-        self.response.write('<title>パタトクカシーー</title>')
+        self.response.write('<title>乗り換え案内</title>')
         self.response.write(form_HTML)
 
 class outputPage(webapp2.RequestHandler):
